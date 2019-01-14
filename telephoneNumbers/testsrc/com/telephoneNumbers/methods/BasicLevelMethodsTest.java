@@ -5,22 +5,21 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.telephoneNumbers.methods.Methods;
+import com.telephoneNumbers.methods.BasicLevelMethods;
 
-public class MethodsTest {
+public class BasicLevelMethodsTest {
 
-	private Methods classUnderTest;
+	private BasicLevelMethods classUnderTest;
 	
 	private String testValueOne = "210 77 57 070";
 	private String testValueTwo = "6 94 59 55 0 40";
-	private String testValueThree = "0 0 30 210 77 57 870";
-	private String testValueFour = "0 0 30 6 94 59 55 0 40";
+	private String testValueThree = "0030 210 77 57 870";
 	
-	public MethodsTest() {} 
+	public BasicLevelMethodsTest() {} 
 	
 	@Before
 	public void setUp() throws Exception {
-		classUnderTest = new Methods();
+		classUnderTest = new BasicLevelMethods();
 	}
 	
 	@Test
@@ -33,9 +32,6 @@ public class MethodsTest {
 		
 		String expectedValueThree = testValueThree;
 		assertEquals(expectedValueThree, testValueThree);
-		
-		String expectedValueFour = testValueFour;
-		assertEquals(expectedValueFour, testValueFour);
 		
 	}
 
@@ -50,8 +46,6 @@ public class MethodsTest {
 		String expectedValueThree = testValueThree;
 		assertEquals(expectedValueThree, testValueThree);
 		
-		String expectedValueFour = testValueFour;
-		assertEquals(expectedValueFour, testValueFour);
 	}
 
 	
@@ -66,8 +60,6 @@ public class MethodsTest {
 		String expectedValueThree = testValueThree;
 		assertEquals(expectedValueThree, testValueThree);
 		
-		String expectedValueFour = testValueFour;
-		assertEquals(expectedValueFour, testValueFour);
 	}
 	
 	
@@ -82,8 +74,6 @@ public class MethodsTest {
 		String expectedValueThree = testValueThree;
 		assertEquals(expectedValueThree, testValueThree);
 		
-		String expectedValueFour = testValueFour;
-		assertEquals(expectedValueFour, testValueFour);
 	}
 
 	@Test
@@ -97,14 +87,6 @@ public class MethodsTest {
 		String expectedValueThree = testValueThree;
 		assertEquals(expectedValueThree, testValueThree);
 		
-		String expectedValueFour = testValueFour;
-		assertEquals(expectedValueFour, testValueFour);
-	}
-	
-	@Test
-	public void TestcheckSequence() {
-		String expectedValue = testValueOne;
-		assertEquals(expectedValue, testValueOne);
 	}
 
 }

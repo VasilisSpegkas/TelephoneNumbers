@@ -1,13 +1,13 @@
 package com.telephoneNumbers.main;
 
-import com.telephoneNumbers.methods.Methods;
+import com.telephoneNumbers.methods.BasicLevelMethods;
 
 public class MainApplication {
 
 	public static void main(String[] args) {
 
-		Methods num = new Methods();
-
+		BasicLevelMethods num = new BasicLevelMethods();
+		
 		boolean flag = true;
 
 		do {
