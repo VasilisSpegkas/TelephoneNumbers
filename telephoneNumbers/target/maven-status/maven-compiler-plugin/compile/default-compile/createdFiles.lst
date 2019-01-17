@@ -1,0 +1,5 @@
+com\telephoneNumbers\main\MainApplication.class
+com\telephoneNumbers\methods\CheckNumber.class
+com\telephoneNumbers\methods\ReturnNumber.class
+com\telephoneNumbers\methods\SequenceNumber.class
+com\telephoneNumbers\methods\ManageNumber.class
